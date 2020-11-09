@@ -1,14 +1,9 @@
-let T = new Date();
-
-document.getElementById("Timeday").innerHTML = T.getHours();
 myFunction();   
 function myFunction() {
-    let x = new Date().getHours()
-    let y = document.getElementById("Timeday");
-
+let x = new Date().getHours()
+let y = document.getElementById("Timeday");
     if (x > 8  &&  x < 12 ) {
         y.innerHTML = "God Morgon";
-
     }
     else if (x >= 12  &&  x < 18 ) {
         y.innerHTML = "God Eftermidag";
@@ -19,5 +14,5 @@ function myFunction() {
     else if (x >=22  || x <= 8 ) {
         y.innerHTML = "God Natt ";
     }
-    
   }
+  
