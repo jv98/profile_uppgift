@@ -1,4 +1,4 @@
-// det här david min lärare på kursen javascript code från rad 2 till 30
+// det här david min lärare på kursen javascript code från rad 2 till 30  men inte add addEventListeners och e function
 window.onload = main;
 // window.addEventListener('load', main);
 
@@ -22,6 +22,12 @@ function startSlideshowAnimation() {
  */
 function rotate (e) {
     e.target.classList.toggle('rotate');
+    let panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
 } 
 
 /** Presents the next image by checking which image is currently presented */
