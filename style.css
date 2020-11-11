@@ -95,7 +95,7 @@ img {
 }
 .infotext{
     height: 100%;
-    white-space: pre;
+    white-space: pre-line;
 }
 .pill{
     size: 2rem;
