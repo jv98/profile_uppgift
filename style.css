@@ -17,16 +17,7 @@ html body {
  
 }
 .main{
-    display: flex;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 54rem;
-    padding: 1rem 1rem;
-    background-color: gray;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
+    height: 56rem;
     
     
 }
@@ -34,17 +25,15 @@ html body {
     z-index: 10;
     position: absolute;
     top: 18%;
-    left: 88%;
+    left: 87%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 4px 10px thistle;
   
 }
 .second_main{
-    display: flex;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 27rem;
+   
+   
+    height: auto;
     padding: 1rem 1rem;
     background-color: lightslategray;
     justify-content: center;
@@ -89,9 +78,21 @@ img {
 }
 .rotate{
     transform: rotateZ(90deg);
+    transition: 0.2s;
 } 
 .panel{
+    
     display: none;
     overflow: hidden;
-    color: yellow;
+    
+}
+.piltext{
+    margin-right: 4rem;
+}
+.infotext{
+    height: 100%;
+    white-space: pre;
+}
+.pill{
+    size: 2rem;
 }
