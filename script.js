@@ -14,7 +14,7 @@ function addEventListeners() {
 }
 /** Start the animation with a set interval */
 function startSlideshowAnimation() {
-    setInterval(changeActiveImage, 2000);
+    setInterval(changeActiveImage, 3000);
 }
 /**
  * 
