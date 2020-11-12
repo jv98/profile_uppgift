@@ -1,4 +1,4 @@
-// det här david min lärare på kursen javascript code från rad 2 till 30  men inte add addEventListeners och e function
+// det här david min lärare på kursen javascript code från rad 2 till 48  men inte add addEventListeners och e function
 window.onload = main;
 // window.addEventListener('load', main);
 
@@ -52,16 +52,16 @@ function myFunction() {
 let x = new Date().getHours()
 let y = document.getElementById("Timeday");
     if (x > 7  &&  x < 12 ) {
-        y.innerHTML = "God Morgon";
+        y.innerHTML = "Det här min hemsida och God Morgon";
     }
     else if (x >= 12  &&  x < 18 ) {
-        y.innerHTML = "God Eftermidag";
+        y.innerHTML = "Det här min hemsida och God Eftermidag";
     }
     else if (x >=18   &&  x < 22 ) {
-        y.innerHTML = "God Kväll";
+        y.innerHTML = "Det här min hemsida och God Kväll";
     }
     else if (x >=22  || x <= 7 ) {
-        y.innerHTML = "God Natt ";
+        y.innerHTML = "Det här min hemsida och God Natt ";
     }
   }
   addEventListeners();
