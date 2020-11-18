@@ -1,0 +1,11 @@
+@media (max-width: 360px) {
+  img{
+      height: 7rem;
+  }
+  a{
+      font-size: 0.8rem;
+  }
+  .text_over{
+      top:23%;
+  }
+}
